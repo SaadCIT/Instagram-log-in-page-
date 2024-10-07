@@ -24,5 +24,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
+        binding.fptv.setOnClickListener{
+
+            Toast.makeText(this@MainActivity,"Forget Password",Toast.LENGTH_SHORT).show()
+        }
+
+        binding.FBtv.setOnClickListener{
+
+            Toast.makeText(this@MainActivity,"Log in with Facebook",Toast.LENGTH_SHORT).show()
+        }
+
+
     }
 }
